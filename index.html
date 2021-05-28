@@ -17,27 +17,27 @@
 			<form action="#" id="survey-form">
 				<div class="form-element">
 					<label for="name" id="name-label">Name</label>
-					<input type="text" name="name" id="name" class="form-control" placeholder="Enter your Name" required>
+					<input type="text" name="name" id="name" class="form-control sizing" placeholder="Enter your Name" required>
 				</div>
 				<div class="form-element">
 					<label for="email" id="email-label">Email</label>
-					<input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email ID" required>
+					<input type="email" name="email" id="email" class="form-control sizing" placeholder="Enter your Email ID" required>
 				</div>
 				<div class="form-element">
 					<label for="number" id="number-label">Age</label>
-					<input type="number" name="age" id="number" class="form-control" min="10" max="99" placeholder="Enter your Age">
+					<input type="number" name="age" id="number" class="form-control sizing" min="10" max="99" placeholder="Enter your Age">
 				</div>
 				<div class="form-element">
 					<label for="radio" id="radio-label">Gender</label>
-					<label>
+					<label class="inline">
 			        <input name="gender" value="male" type="radio" class="input-radio" checked>
 						Male
 					</label>
-					<label>
+					<label class="inline">
 			        <input name="gender" value="female" type="radio" class="input-radio">
 						Female
 					</label>
-					<label>
+					<label class="inline">
 			        <input name="gender" value="other" type="radio" class="input-radio">
 						Other
 					</label>
@@ -55,102 +55,104 @@
 				</div>
 				<div class="form-element">
 					<label for="checkbox" id="checkbox-label">Genre</label>
-					<label>
-			        <input name="genre" value="action" type="checkbox" class="input-checkbox">
-						Action
-					</label>
-					<label>
-			        <input name="genre" value="adventure" type="checkbox" class="input-checkbox">
-						Adventure
-					</label>
-					<label>
-			        <input name="genre" value="comedy" type="checkbox" class="input-checkbox">
-						Comedy
-					</label>
-					<label>
-					<input name="genre" value="drama" type="checkbox" class="input-checkbox">
-						Drama
-					</label>
-					<label>
-					<input name="genre" value="ecchi" type="checkbox" class="input-checkbox">
-						Ecchi
-					</label>
-					<label>
-					<input name="genre" value="fantasy" type="checkbox" class="input-checkbox">
-						Fantasy
-					</label>
-					<label>
-					<input name="genre" value="harem" type="checkbox" class="input-checkbox">
-						Harem
-					</label>
-					<label>
-					<input name="genre" value="horror" type="checkbox" class="input-checkbox">
-						Horror
-					</label>
-					<label>
-					<input name="genre" value="isekai" type="checkbox" class="input-checkbox">
-						Isekai
-					</label>
-					<label>
-					<input name="genre" value="magic" type="checkbox" class="input-checkbox">
-						Magic
-					</label>
-					<label>
-					<input name="genre" value="mecha" type="checkbox" class="input-checkbox">
-						Mecha
-					</label>
-					<label>
-					<input name="genre" value="music" type="checkbox" class="input-checkbox">
-						Music
-					</label>
-					<label>
-					<input name="genre" value="mystery" type="checkbox" class="input-checkbox">
-						Mystery
-					</label>
-					<label>
-					<input name="genre" value="psychological" type="checkbox" class="input-checkbox">
-						Psychological
-					</label>
-					<label>
-					<input name="genre" value="romance" type="checkbox" class="input-checkbox">
-						Romance
-					</label>
-					<label>
-					<input name="genre" value="school" type="checkbox" class="input-checkbox">
-						School
-					</label>
-					<label>
-					<input name="genre" value="scifi" type="checkbox" class="input-checkbox">
-						Sci-Fi
-					</label>
-					<label>
-					<input name="genre" value="shounen" type="checkbox" class="input-checkbox">
-						Shounen
-					</label>
-					<label>
-					<input name="genre" value="slice-of-life" type="checkbox" class="input-checkbox">
-						Slice of Life
-					</label>
-					<label>
-					<input name="genre" value="space" type="checkbox" class="input-checkbox">
-						Space
-					</label>
-					<label>
-					<input name="genre" value="sports" type="checkbox" class="input-checkbox">
-						Sports
-					</label>
-					<label>
-					<input name="genre" value="superpower" type="checkbox" class="input-checkbox">
-						Superpower
-					</label>
-					<label>
-					<input name="genre" value="thriller" type="checkbox" class="input-checkbox">
-						Thriller
-					</label>
+					<div class="grid">
+						<label class="inline">
+				        <input name="genre" value="action" type="checkbox" class="input-checkbox">
+							Action
+						</label>
+						<label class="inline">
+				        <input name="genre" value="adventure" type="checkbox" class="input-checkbox">
+							Adventure
+						</label>
+						<label class="inline">
+				        <input name="genre" value="comedy" type="checkbox" class="input-checkbox">
+							Comedy
+						</label>
+						<label class="inline">
+						<input name="genre" value="drama" type="checkbox" class="input-checkbox">
+							Drama
+						</label>
+						<label class="inline">
+						<input name="genre" value="ecchi" type="checkbox" class="input-checkbox">
+							Ecchi
+						</label>
+						<label class="inline">
+						<input name="genre" value="fantasy" type="checkbox" class="input-checkbox">
+							Fantasy
+						</label>
+						<label class="inline">
+						<input name="genre" value="harem" type="checkbox" class="input-checkbox">
+							Harem
+						</label>
+						<label class="inline">
+						<input name="genre" value="horror" type="checkbox" class="input-checkbox">
+							Horror
+						</label>
+						<label class="inline">
+						<input name="genre" value="isekai" type="checkbox" class="input-checkbox">
+							Isekai
+						</label>
+						<label class="inline">
+						<input name="genre" value="magic" type="checkbox" class="input-checkbox">
+							Magic
+						</label>
+						<label class="inline">
+						<input name="genre" value="mecha" type="checkbox" class="input-checkbox">
+							Mecha
+						</label>
+						<label class="inline">
+						<input name="genre" value="music" type="checkbox" class="input-checkbox">
+							Music
+						</label>
+						<label class="inline">
+						<input name="genre" value="mystery" type="checkbox" class="input-checkbox">
+							Mystery
+						</label>
+						<label class="inline">
+						<input name="genre" value="psychological" type="checkbox" class="input-checkbox">
+							Psychological
+						</label>
+						<label class="inline">
+						<input name="genre" value="romance" type="checkbox" class="input-checkbox">
+							Romance
+						</label>
+						<label class="inline">
+						<input name="genre" value="school" type="checkbox" class="input-checkbox">
+							School
+						</label>
+						<label class="inline">
+						<input name="genre" value="scifi" type="checkbox" class="input-checkbox">
+							Sci-Fi
+						</label>
+						<label class="inline">
+						<input name="genre" value="shounen" type="checkbox" class="input-checkbox">
+							Shounen
+						</label>
+						<label class="inline">
+						<input name="genre" value="slice-of-life" type="checkbox" class="input-checkbox">
+							Slice of Life
+						</label>
+						<label class="inline">
+						<input name="genre" value="space" type="checkbox" class="input-checkbox">
+							Space
+						</label>
+						<label class="inline">
+						<input name="genre" value="sports" type="checkbox" class="input-checkbox">
+							Sports
+						</label>
+						<label class="inline">
+						<input name="genre" value="superpower" type="checkbox" class="input-checkbox">
+							Superpower
+						</label>
+						<label class="inline">
+						<input name="genre" value="thriller" type="checkbox" class="input-checkbox">
+							Thriller
+						</label>
+					</div>
 				</div>
 				<div class="form-element">
 					<label for="anime-rec" id="animerec-label">Which anime do you recommend?</label>
-					<textarea name="recommended-anime" id="anime-rec" placeholder="Enter your recommendations here..."></textarea>
+					<textarea name="recommended-anime" id="anime-rec" class="sizing" placeholder="Enter your recommendations here..."></textarea>
 				</div>
 				<div class="form-element">
 					<button type="submit" id="submit" class="submit-button">Submit</button>
