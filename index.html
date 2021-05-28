@@ -25,7 +25,7 @@
 				</div>
 				<div class="form-element">
 					<label for="number" id="number-label">Age</label>
-					<input type="number" name="age" id="number" class="form-control sizing" min="10" max="99" placeholder="Enter your Age">
+					<input type="number" name="age" id="number" class="form-control sizing" min="5" max="99" placeholder="Enter your Age">
 				</div>
 				<div class="form-element">
 					<label for="radio" id="radio-label">Gender</label>
@@ -46,7 +46,6 @@
 					<label for="dropdown" id="dropdown-label">How long have you been watching anime?</label>
 					<select id="dropdown" class="form-control" name="role">
 						<option value="" disabled selected>Select duration</option>
-						<!-- Search what is disabled selected value for option tag attributes -->
 				        <option value="<6months">Less than 6 months</option>
 				        <option value="<1year">Less than 1 year</option>
 				        <option value="<3year">Less than 3 years</option>
@@ -54,7 +53,7 @@
 					</select>
 				</div>
 				<div class="form-element">
-					<label for="checkbox" id="checkbox-label">Genre</label>
+					<label for="checkbox" id="checkbox-label">Favourite genres</label>
 					<div class="grid">
 						<label class="inline">
 				        <input name="genre" value="action" type="checkbox" class="input-checkbox">
@@ -152,7 +151,7 @@
 				</div>
 				<div class="form-element">
 					<label for="anime-rec" id="animerec-label">Which anime do you recommend?</label>
-					<textarea name="recommended-anime" id="anime-rec" class="sizing" placeholder="Enter your recommendations here..."></textarea>
+					<textarea name="recommended-anime" id="anime-rec" class="sizing" placeholder="Enter your recommendations here..." required></textarea>
 				</div>
 				<div class="form-element">
 					<button type="submit" id="submit" class="submit-button">Submit</button>
