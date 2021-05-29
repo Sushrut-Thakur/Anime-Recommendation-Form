@@ -28,7 +28,7 @@
 					<input type="number" name="age" id="number" class="form-control sizing" min="5" max="99" placeholder="Enter your Age">
 				</div>
 				<div class="form-element">
-					<label for="radio" id="radio-label">Gender</label>
+					<label id="radio-label">Gender</label>
 					<label class="inline">
 			        <input name="gender" value="male" type="radio" class="input-radio" checked>
 						Male
@@ -43,8 +43,8 @@
 					</label>
 				</div>
 				<div class="form-element">
-					<label for="dropdown" id="dropdown-label">How long have you been watching anime?</label>
-					<select id="dropdown" class="form-control" name="role">
+					<label id="dropdown-label">How long have you been watching anime?</label>
+					<select id="dropdown" class="form-control sizing" name="role">
 						<option value="" disabled selected>Select duration</option>
 				        <option value="<6months">Less than 6 months</option>
 				        <option value="<1year">Less than 1 year</option>
@@ -151,7 +151,7 @@
 				</div>
 				<div class="form-element">
 					<label for="anime-rec" id="animerec-label">Which anime do you recommend?</label>
-					<textarea name="recommended-anime" id="anime-rec" class="sizing" placeholder="Enter your recommendations here..." required></textarea>
+					<textarea name="recommended-anime" id="anime-rec" class="form-control sizing" placeholder="Enter your recommendations here..." required></textarea>
 				</div>
 				<div class="form-element">
 					<button type="submit" id="submit" class="submit-button">Submit</button>
