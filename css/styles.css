@@ -158,3 +158,15 @@ form {
 	background-color: var(--color-green);
 	cursor: pointer;
 }
+
+@media (max-width: 70rem) {
+	.container {
+		max-width: 60rem;
+	}
+}
+
+@media (max-width: 40rem) {
+	.container {
+		max-width: 100%;
+	}
+}
